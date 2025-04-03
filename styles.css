@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #00ffcc;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(10, 10, 10, 0.9);
+    padding: 10px 0;
+    box-shadow: 0 0 10px #00ffcc;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+header {
+    background: linear-gradient(90deg, #000428, #004e92, #ff0000);
+    color: white;
+    padding: 60px 20px 20px;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px #00ffcc;
+    margin-top: 50px;
+}
+
+section {
+    padding: 20px;
+}
+
+.servicio {
+    background-color: #111;
+    margin: 20px auto;
+    width: 85%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+.servicio img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.servicio p {
+    color: #00ffcc;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 20px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0 0 10px #25d366;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #ff0000;
+    box-shadow: 0 0 20px #ff0000;
+}
+
+footer {
+    background-color: #111;
+    color: #00ffcc;
+    padding: 10px;
+    width: 100%;
+    text-shadow: 0 0 5px #00ffcc;
+}
